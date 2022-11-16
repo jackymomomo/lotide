@@ -1,3 +1,5 @@
+
+/*
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -13,3 +15,5 @@ assertEqual(1, 1);
 assertEqual('banana', 'banana');
 assertEqual('buns', 'bananas');
 assertEqual(2672, 2672);
+*/
+
