@@ -10,12 +10,12 @@ var eqArrays = function(array1, array2) {
   }
   return output;
 }
-module.exports = eqArrays
+ 
 
-eqArrays = require("./eqArrays");
+ eqArrays = require("./eqArrays");
 
 const assertEqual = function(arg1, arg2) {
-  if (eqArrays(arg1, arg2)) {
+  if (arg1 === arg2) {
     console.log(`Asseertion passed ✅✅✅ : ${arg1} === ${arg2}`)
   } else {
     console.log(`Assetion failed 🛑🛑🛑: ${arg1} !== ${arg2}`)
@@ -43,6 +43,6 @@ return midIndex.slice(midIndex.length / 2 - 1, midIndex.length / 2 + 1)
 
 module.exports = middle 
 
-console.log(middle([1, 2, 3])) 
-console.log(middle([1, 2, 3, 4, 5])) 
-console.log(middle([[1, 2, 3, 4]]))
+ // console.log(middle([1, 2, 3])) 
+// console.log(middle([1, 2, 3, 4, 5])) 
+// console.log(middle([[1, 2, 3, 4]]))
