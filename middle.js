@@ -12,7 +12,7 @@ var eqArrays = function(array1, array2) {
 }
 module.exports = eqArrays
 
- eqArrays = require("./eqArrays");
+eqArrays = require("./eqArrays");
 
 const assertEqual = function(arg1, arg2) {
   if (eqArrays(arg1, arg2)) {
