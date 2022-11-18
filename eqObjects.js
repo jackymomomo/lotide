@@ -1,4 +1,5 @@
 const assertEqual = require("./assertEqual");
+const eqArrays = require("./eqArrays");
 
 const eqObjects = (obj1, obj2) => {
 let keys1 = Object.keys(obj1)
@@ -26,11 +27,12 @@ const ab = { a: "1", b: "2" };
  //true
   
   const abc = { a: "1", b: "2", c: "3" };
+  assertEqual (eqObjects(ab, abc))
   //false
 
   const gd = {g: '1', d: '2' }
   const dg = {d: '2', g: '1'}
   assertEqual(eqObjects(gd, dg), true);
 
-  const cd2 = {c:'1', d: '2', 2: '3' }
-  assertEqual(eqObjects(cd, cd2), false); // => false
+  // const cd2 = {c:'1', d: '2', d ['2', 3, 2] }
+  // assertEqual(eqObjects(cd, cd2), false); // => false
