@@ -22,7 +22,6 @@ const assertEqual = function(arg1, arg2) {
   }
 };
 
-module.exports = assertEqual
 
 const middle = function(midIndex) {
   
