@@ -22,6 +22,8 @@ if (keys1.length === keys2.length){
 } 
 
 
+
+
 const ab = { a: "1", b: "2" };
   const ba = { b: "2", a: "1" };
  //true
@@ -33,6 +35,9 @@ const ab = { a: "1", b: "2" };
   const gd = {g: '1', d: '2' }
   const dg = {d: '2', g: '1'}
   assertEqual(eqObjects(gd, dg), true);
+  
+  module.exports = eqObjects;
+
 
   // const cd2 = {c:'1', d: '2', d ['2', 3, 2] }
   // assertEqual(eqObjects(cd, cd2), false); // => false

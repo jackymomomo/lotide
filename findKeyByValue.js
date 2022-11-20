@@ -18,6 +18,7 @@ const bestTVShows = {
   comedy: 'Brooklyn Nine-Nine',
   drama: 'The Wire'
 };
+module.exports = findKeyByValue;
 
 assertEqual(findKeyByValue(bestTVShows, 'Brooklyn Nine-Nine'), 'comedy');
 assertEqual(findKeyByValue(bestTVShows, 'The Wire'), 'drama');
