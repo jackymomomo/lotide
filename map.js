@@ -21,7 +21,7 @@ const map = (array, callback) => {
   return result;
 }
 
-
+module.exports = map
 
 const results1 = map(words, word => word[0]);
 assertEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);

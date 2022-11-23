@@ -1,25 +1,6 @@
 
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  }
-  if (actual !== expected) {
-    console.log(`🛑🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
-const head = function(firstEl) {
-  return firstEl[0];
-};
-
-module.exports = head;
-
-const tail = function(array) {
-  return array.slice(1);
-};
-
-module.exports = tail;
-
+const tail = require('./tail')
+const head = require('./head')
 
 const eqArrays = function(array1, array2) {
   let output = true;
@@ -36,6 +17,7 @@ const eqArrays = function(array1, array2) {
   }
   return output;
 }
+
 module.exports = eqArrays
 
 // console.log(eqArrays([1, 2, 3], [1, 2, 3])); // => true
