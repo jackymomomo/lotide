@@ -12,7 +12,7 @@ const words = ["ground", "control", "to", "major", "tom"];
 const lyrics = words.map(word => words)
 
 
-const map = (array, callback) => {
+const maper = (array, callback) => {
   const result = [];
   for (let item of array){
     result.push(callback(item));
@@ -21,7 +21,7 @@ const map = (array, callback) => {
   return result;
 }
 
-module.exports = map
+module.exports = maper;
 
 const results1 = map(words, word => word[0]);
 assertEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);

@@ -10,12 +10,12 @@ const findKey = (obj1, callback) => {
   }
   return undefined;
 }; 
-
+module.exports = findKey 
 
   
   // return Object.keys(object).find(key => object[val] === value)
 
-module.export = findKey
+
 
 
 let object = {

@@ -24,17 +24,17 @@ if (keys1.length === keys2.length){
 
 
 
-const ab = { a: "1", b: "2" };
-  const ba = { b: "2", a: "1" };
- //true
+// const ab = { a: "1", b: "2" };
+//   const ba = { b: "2", a: "1" };
+//  //true
   
-  const abc = { a: "1", b: "2", c: "3" };
-  assertEqual (eqObjects(ab, abc))
-  //false
+//   const abc = { a: "1", b: "2", c: "3" };
+//   assertEqual (eqObjects(ab, abc))
+//   //false
 
-  const gd = {g: '1', d: '2' }
-  const dg = {d: '2', g: '1'}
-  assertEqual(eqObjects(gd, dg), true);
+//   const gd = {g: '1', d: '2' }
+//   const dg = {d: '2', g: '1'}
+//   assertEqual(eqObjects(gd, dg), true);
   
   module.exports = eqObjects;
 

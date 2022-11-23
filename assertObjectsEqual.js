@@ -17,7 +17,7 @@ const assertObjectsEqual = function(actual, expected){
 };
 assertObjectsEqual(eqObjects([1, 2, 3], [1, 2, 3]), true); // => true
 
-
+module.exports = assertObjectsEqual;
 
 
 var nyc = {
@@ -35,4 +35,3 @@ var nyc = {
 
 console.log(nyc['boroughs'][1])
 
-module.exports = assertObjectsEqual;

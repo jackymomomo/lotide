@@ -18,5 +18,5 @@ const countLetters = (string1) => {
   }
   return count
 }
-
+module.exports = countLetters;
 console.log(countLetters('Bananas are all the rave these days'))

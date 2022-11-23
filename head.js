@@ -1,10 +1,11 @@
 
+
 const assertEqual = require('./assertEqual');
 
 
-head = (firstEl) => {
-  return firstEl[0];
+const head = (arrays) => {
+  return arrays[0] 
 };
 
-
+module.exports = head;
 
