@@ -9,11 +9,6 @@ const assertEqual = function(arg1, arg2) {
 };
 
 
- //assertEqual("Lighthouse Labs", "Bootcamp");
-// assertEqual(1, 1);
-// assertEqual('banana', 'banana');
-// assertEqual('buns', 'bananas');
-// assertEqual(2672, 2672);
-
+ 
 module.exports = assertEqual
 
