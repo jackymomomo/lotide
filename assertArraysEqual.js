@@ -9,4 +9,6 @@ const assertArraysEqual = function(arg1, arg2) {
   }
 };
 
-module.exports = assertArraysEqual;
+module.exports = assertArraysEqual
+
+console.log(':) <3')
