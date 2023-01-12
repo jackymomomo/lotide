@@ -1,4 +1,4 @@
-
+const eqArrays = require('./eqArrays')
 
 const assertEqual = function(arg1, arg2) {
   if (arg1 === arg2) {
@@ -8,7 +8,7 @@ const assertEqual = function(arg1, arg2) {
   }
 };
 
-
+// console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
  
 module.exports = assertEqual
 
