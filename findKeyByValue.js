@@ -14,9 +14,9 @@ const findKeyByValue = (object, value) => {
 }
 
 const bestTVShows = {
-  sci_fi: 'The Expanse',
+  sci_fi: 'One Piece',
   comedy: 'Brooklyn Nine-Nine',
-  drama: 'The Wire'
+  drama: 'Breaking Bad'
 };
 module.exports = findKeyByValue;
 
