@@ -2,13 +2,13 @@ const assertEqual = require("./assertEqual");
 const eqArrays = require("./eqArrays");
 
 const eqObjects = (obj1, obj2) => {
-let keys1 = Object.keys(obj1)
-let keys2 = Object.keys(obj2)
+let keysForObj1 = Object.keys(obj1)
+let keysForObj2 = Object.keys(obj2)
 let result = false;
-if (keys1.length === keys2.length){
-  if (keys1.length === keys2.length) {
-    keys1.forEach(element => {
-      if (keys2.includes(element) && obj1[element] === obj2[element]) {
+if (keysForObj1.length === keysForObj2.length){
+  if (keysForObj1.length === keysForObj2.length) {
+    keysForObj1.forEach(element => {
+      if (keysForObj2.includes(element) && obj1[element] === obj2[element]) {
         result = true;
       } else if (Array.isArray(obj1[element]) && Array.isArray(obj2[element])) {
         result = eqArrays(obj1[element], obj2[element]);
