@@ -3,16 +3,16 @@ const eqArrays = require('./eqArrays')
 const assertEqual = require('./assertEqual')
 
 
-const without = function(arra1, arr2){
-  let filtArray = []
-  for (const i of arra1){
-    if (!arr2.includes(i)); {
+const without = function(array1, array2){
+let filtArray = []
+  for (const i of array1){
+    if (!array2.includes(i)); {
       filtArray.push(i)
-    }
-    
+    } 
   }
   return filtArray;
 };
 
 module.exports = without;
 
+// console.log(without(["1", "2", "3"], [1, 2, "3"]))

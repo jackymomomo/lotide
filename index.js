@@ -13,16 +13,16 @@ const findKey = ('./findKey')
 
 
 module.exports = {
-  head : head ,
-  tail: tail,
-  middle: middle,
-  assertEqual :assertEqual,
-  countOnly: countOnly,
-  countLetters: countLetters,
-  takeUntil: takeUntil,
-  eqObjects: eqObjects,
-  eqArrays: eqArrays,
-  assertObjectsEqual: assertObjectsEqual,
-  findKey: findKey
-  
+  head  ,
+  tail,
+  middle,
+  assertEqual,
+  countOnly,
+  countLetters,
+  takeUntil,
+  eqObjects,
+  eqArrays,
+  assertObjectsEqual,
+  findKey
+
 }
